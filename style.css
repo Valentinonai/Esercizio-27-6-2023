@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("./assets/epicode_thumb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2vw;
+}
+header {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+header img {
+  width: 10%;
+}
+header h1 {
+  margin: auto 50px;
+  font-size: 5vw;
+  color: white;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+nav button {
+  width: 20%;
+  height: 40px;
+  border-radius: 200px;
+  margin: auto 20px;
+  background-color: white;
+  cursor: pointer;
+}
+aside {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+aside a {
+  color: yellow;
+  margin: 50px;
+}
+main {
+  width: 80%;
+  margin: 30px auto;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+main a {
+  color: yellow;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer a {
+  color: aqua;
+}
+footer p {
+  margin: 5px auto;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+td,
+th {
+  width: 200px;
+  border: 1px solid white;
+}
